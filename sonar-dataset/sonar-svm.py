@@ -48,3 +48,5 @@ classifier.fit(X_train_std, y_train)
 y_pred = classifier.predict(X_test_std)
 
 score = accuracy_score(y_test, y_pred)
+
+print("The accuracy is  %.3f" % score)
